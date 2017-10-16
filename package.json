@@ -1,0 +1,9 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "Setting up Webpack, Babel, and React from scratch, revisited",
+  "main": "index.js",
+  "repository": "git@github.com:zainfathoni/webpack-react.git",
+  "author": "Zain Fathoni <zain.fathoni@gmail.com>",
+  "license": "MIT"
+}
