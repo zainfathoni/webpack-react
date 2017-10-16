@@ -44,6 +44,12 @@ module.exports = {
         loader: ExtractTextPlugin.extract({
           use: "css-loader"
         })
+      },
+      // File loader for image assets
+      // We'll add only image extensions, but you can things like svgs, fonts and videos
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: ["file-loader"]
       }
     ]
   },
