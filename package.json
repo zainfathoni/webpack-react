@@ -6,9 +6,11 @@
   "author": "Zain Fathoni <zain.fathoni@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^3.7.1"
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.2"
   },
   "scripts": {
+    "start": "webpack-dev-server",
     "build": "webpack"
   }
 }
